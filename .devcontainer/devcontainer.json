@@ -11,10 +11,12 @@
 				"ms-vscode.cpptools",
 				"formulahendry.code-runner",
 				"MarcHolland.theme-1"
-			]
+			],
+			"settings": {
+				"workbench.colorTheme": "Theme"
+			  }
 		}
 	}
-
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
