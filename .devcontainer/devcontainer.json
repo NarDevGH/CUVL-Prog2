@@ -12,11 +12,13 @@
 				"formulahendry.code-runner"
 			],
 			"settings": {
-				"workbench.colorTheme": "CUVL"
+				//"workbench.colorTheme": "CUVL"
 			  }
 		}
 	},
-	"postStartCommand":"code --install-extension '/workspaces/CUVL-Prog2/.theme/cuvl-theme-0.0.1.vsix'"
+	"postStartCommand":{
+		"server":"code --install-extension '/workspaces/CUVL-Prog2/.theme/cuvl-theme-0.0.1.vsix'"
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
