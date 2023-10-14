@@ -2,6 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/cpp
 {
 	"name": "C++",
+	"initializeCommand":"code --install-extension '/workspaces/CUVL-Prog2/.theme/cuvl-theme-0.0.1.vsix'",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
@@ -9,11 +10,10 @@
 		"vscode": {
 			"extensions": [
 				"ms-vscode.cpptools",
-				"formulahendry.code-runner",
-				"undefined_publisher.cuvl-theme"
+				"formulahendry.code-runner"
 			],
 			"settings": {
-				"workbench.colorTheme": "Theme"
+				"workbench.colorTheme": "CUVL"
 			  }
 		}
 	}
