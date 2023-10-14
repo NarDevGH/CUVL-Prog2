@@ -2,7 +2,6 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/cpp
 {
 	"name": "C++",
-	"initializeCommand":"code --install-extension '/workspaces/CUVL-Prog2/.theme/cuvl-theme-0.0.1.vsix'",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
@@ -16,7 +15,9 @@
 				"workbench.colorTheme": "CUVL"
 			  }
 		}
-	}
+	},
+	"initializeCommand":"code --install-extension '/workspaces/CUVL-Prog2/.theme/cuvl-theme-0.0.1.vsix'"
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
