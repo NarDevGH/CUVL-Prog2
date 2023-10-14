@@ -10,7 +10,8 @@
 			"extensions": [
 				"ms-vscode.cpptools",
 				"formulahendry.code-runner",
-				"MarcHolland.theme-1"
+				"MarcHolland.theme-1",
+				"undefined_publisher.cuvl-theme"
 			],
 			"settings": {
 				"workbench.colorTheme": "Theme"
