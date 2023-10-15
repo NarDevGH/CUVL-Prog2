@@ -9,15 +9,13 @@
 		"vscode": {
 			"extensions": [
 				"ms-vscode.cpptools",
-				"formulahendry.code-runner"
+				"formulahendry.code-runner",
+				"cuvl-theme.cuvl-theme"
 			],
 			"settings": {
-				//"workbench.colorTheme": "CUVL"
+				"workbench.colorTheme": "CUVL"
 			  }
 		}
-	},
-	"postStartCommand":{
-		"server":"code --install-extension '/workspaces/CUVL-Prog2/.theme/cuvl-theme-0.0.1.vsix'"
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
